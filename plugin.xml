@@ -8,6 +8,6 @@
  <engines><engine name="cordova" version=">=3.0.0" /></engines>
  <js-module src="www/ondestroyplugin.js" name="onDestroyPlugin"><clobbers target="window.plugins.onDestroyPlugin" /></js-module>
  <platform name="android">
-  <source-file src="src/android/onDestroyPlugin.java" target-dir="src/com/flyingsoftgames/ondestroyplugin" />
+  <source-file src="src/android/OnDestroyPlugin.java" target-dir="src/com/flyingsoftgames/ondestroyplugin" />
  </platform>
 </plugin>
