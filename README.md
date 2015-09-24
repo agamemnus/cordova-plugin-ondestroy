@@ -8,5 +8,5 @@ Usage / Function List
 
 Set the event listener.
 ````
-window.plugins.OnDestroyPlugin.setEventListener (function)
+window.plugins.OnDestroy.setEventListener (function)
 ````
