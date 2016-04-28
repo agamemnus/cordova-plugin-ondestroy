@@ -6,7 +6,7 @@
  <license>MIT (see readme.md)</license>
  <keywords>cordova,phonegap,android,agamemnus,flyingsoftgames,ondestroy</keywords>
  <engines><engine name="cordova" version=">=3.0.0" /></engines>
- <js-module src="www/ondestroyplugin.js" name="OnDestroyPlugin"><clobbers target="window.plugins.OnDestroyPlugin" /></js-module>
+ <js-module src="www/ondestroyplugin.js" name="OnDestroyPlugin"><clobbers target="window.plugins.OnDestroy" /></js-module>
  <platform name="android">
   <config-file target="res/xml/config.xml" parent="/*">
    <feature name="OnDestroyPlugin">
