@@ -1,5 +1,5 @@
 {
- "name": "CordovaOnDestroyPlugin",
+ "name": "cordova-plugin-ondestroy",
  "version" : "0.1.0",
  "description" : "Sets an event listener that runs when the Cordova Activity is destroyed.",
  "cordova": {
