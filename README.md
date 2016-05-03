@@ -8,5 +8,7 @@ Usage / Function List
 
 Set the event listener.
 ````
-window.plugins.OnDestroyPlugin.setEventListener (function)
+window.plugins.OnDestroy.setEventListener(function(){
+        		    console.log('in OnDestroy Plugin');
+		});
 ````
