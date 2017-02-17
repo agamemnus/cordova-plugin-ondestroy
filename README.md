@@ -23,8 +23,8 @@ Set the event listener for onDestroy Android events.
 ````
 window.plugins.OnDestroyPlugin.setEventListener (function)
 ````
-````
 or
-window.plugins.OnDestroyPlugin.setEventListener (function)
+````
+window.plugins.OnDestroyPlugin.setOnDestroyEventListener (function)
 ````
 
