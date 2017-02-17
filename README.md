@@ -14,13 +14,17 @@ http://stackoverflow.com/questions/18361719/android-activity-ondestroy-is-not-al
 Usage / Function List
 ----------------------
 
-OnPausePlugin: set the event listener for onPause Android events.
+Set the event listener for onPause Android events.
 ````
-window.plugins.OnPausePlugin.setEventListener (function)
+window.plugins.OnPausePlugin.setOnPauseEventListener (function)
 ````
 
-OnDestroyPlugin: set the event listener for onDestroy Android events.
+Set the event listener for onDestroy Android events.
 ````
+window.plugins.OnDestroyPlugin.setEventListener (function)
+````
+````
+or
 window.plugins.OnDestroyPlugin.setEventListener (function)
 ````
 
