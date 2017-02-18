@@ -1,11 +1,7 @@
-onDestroy (and onPause)
+onDestroy
 ========================
 
-Sets an event listener that runs when the Cordova Activity stops (is destroyed).
-
-Note that this event does not always run. It is safer to use onPause -- this plugin includes onPause as well.
-
-See the following link and image:
+Sets an event listener that runs when the Cordova Activity is "destroyed". Note that this event does not always run before a program is removed from memory (see below link and image).
 
 http://stackoverflow.com/questions/18361719/android-activity-ondestroy-is-not-always-called-and-if-called-only-part-of-the/18361887#18361887
 
@@ -14,17 +10,7 @@ http://stackoverflow.com/questions/18361719/android-activity-ondestroy-is-not-al
 Usage / Function List
 ----------------------
 
-Set the event listener for onPause Android events.
-````
-window.plugins.OnDestroyPlugin.addOnPauseEventListener (function) // Same as "document.addEventListener("pause", function, false)".
-````
-
-Set the event listener for onDestroy Android events.
 ````
 window.plugins.OnDestroyPlugin.setEventListener (function)
-````
-or
-````
-window.plugins.OnDestroyPlugin.setOnDestroyEventListener (function)
 ````
 
