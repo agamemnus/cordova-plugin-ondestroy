@@ -3,7 +3,9 @@ module.exports = function () {
   cordova.exec (callback, undefined, "OnDestroyPlugin", "setEventListener", [])
  }
  exports.addOnPauseEventListener = function (callback) {
-  document.addEventListener("pause", callback, false)
+  document.addEventListener("deviceready", function () {
+   document.addEventListener("pause", callback, false)
+  })
  }
  return exports
 } ()
