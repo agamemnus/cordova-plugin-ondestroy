@@ -1,12 +1,12 @@
 {
  "name": "cordova-plugin-ondestroy",
- "version" : "1.0.3",
+ "version" : "1.0.4",
  "description" : "Sets an event listener that runs when the Cordova Activity is destroyed.",
  "cordova": {
   "id" : "cordova-plugin-ondestroy",
   "platforms": ["android"]
  },
- "keywords": ["cordova"," phonegap", "android", "agamemnus", "flyingsoftgames", "ondestroy", "onpause"],
+ "keywords": ["cordova"," phonegap", "android", "agamemnus", "flyingsoftgames", "ondestroy"],
  "author": "Michael Romanovsky",
  "license": "MIT (see readme.md)"
 }
