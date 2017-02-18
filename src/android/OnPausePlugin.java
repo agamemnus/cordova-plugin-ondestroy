@@ -9,7 +9,7 @@ import org.json.JSONException;
 
 import android.util.Log;
 
-public class OnDestroyPlugin extends CordovaPlugin {
+public class OnPausePlugin extends CordovaPlugin {
  
  private CallbackContext onPauseCallback = null;
  private final String LOG_TAG = "onPausePlugin";
