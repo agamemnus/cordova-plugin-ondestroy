@@ -16,7 +16,7 @@ Usage / Function List
 
 Set the event listener for onPause Android events.
 ````
-window.plugins.OnDestroyPlugin.setOnPauseEventListener (function)
+window.plugins.OnDestroyPlugin.addOnPauseEventListener (function) // Same as "document.addEventListener("pause", function, false)".
 ````
 
 Set the event listener for onDestroy Android events.
