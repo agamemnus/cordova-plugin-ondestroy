@@ -11,7 +11,7 @@ import android.util.Log;
 
 public class OnDestroyPlugin extends CordovaPlugin {
  
- private CallbackContext onDestroyCallback = null;
+ private CallbackContext onPauseCallback = null;
  private final String LOG_TAG = "onPausePlugin";
  
  public boolean execute (String action, JSONArray inputs, CallbackContext callbackContext) throws JSONException {
