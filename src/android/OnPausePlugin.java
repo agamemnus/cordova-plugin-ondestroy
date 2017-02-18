@@ -19,7 +19,7 @@ public class OnPausePlugin extends CordovaPlugin {
   return true;
  }
  
- @Override public void onPause () {
+ protected void onPause () {
   if (onPauseCallback != null) onPauseCallback.sendPluginResult (pluginResultKeep());
   super.onPause ();
  };
