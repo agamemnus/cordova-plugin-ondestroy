@@ -11,8 +11,5 @@ Usage / Function List
 ----------------------
 
 ````
-window.plugins.OnDestroy.setEventListener(function(){
-        		    console.log('in OnDestroy Plugin');
-		});
+window.plugins.OnDestroyPlugin.setEventListener (function)
 ````
-
